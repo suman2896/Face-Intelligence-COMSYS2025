@@ -52,3 +52,83 @@ Combined two powerful deep learning approaches:
 - **🔍 Vision Transformer (ViT) Head:**  
   - Processes features with self-attention to capture global relationships.  
   - Lightweight (4 layers) to avoid overfitting.
+
+
+
+
+# 🧠 System Architecture
+
+<div align="center">
+
+picture required
+
+
+
+</div>
+---
+
+## ⚙️ Key Components & Methodology
+
+### 📸 A. Data Preprocessing
+
+<div align="center">
+
+| Step              | Technique                                     | Benefit                                         |
+|-------------------|-----------------------------------------------|------------------------------------------------|
+| **Face Detection** | OpenCV Haar Cascade detects and crops faces. | Focuses model on relevant facial features      |
+| **Augmentation**   | Random horizontal flips increase diversity.  | Improves generalization to different orientations |
+| **Normalization**  | Pixel values scaled using ImageNet mean & std.| Accelerates convergence during training         |
+
+</div>
+
+---
+
+### 🧱  B. Model Architecture
+
+<div align="center">
+
+| Component             | Parameters           | Functionality                                         |
+|-----------------------|----------------------|-------------------------------------------------------|
+| **CNN Backbone (ResNet18)** | Pretrained on ImageNet | Extracts spatial features (edges, textures, patterns) |
+| **ViT Head**          | 4 layers, 4 heads    | Learns relationships across full facial region using self-attention |
+| **Feature Fusion**    | 512→7×7→ViT           | Combines local features with global context for comprehensive understanding |
+
+</div>
+
+---
+
+### 🧪 C. Training Details
+
+<div align="center">
+
+| Hyperparameter    | Value              | Impact                                  |
+|------------------|--------------------|-----------------------------------------|
+| **Loss Function** | Cross-Entropy Loss | Optimized for binary classification task |
+| **Optimizer**     | Adam               | Adaptive learning rate for efficient convergence |
+| **Learning Rate** | 1e-4               | Balanced speed and stability during training |
+| **Batch Size**    | 32                 | Maximizes GPU utilization without memory overflow |
+| **Epochs**        | 15                 | Full convergence achieved without overfitting |
+
+</div>
+
+---
+
+### 📊 Evaluation Metrics
+
+<div align="center">
+
+| Metric     | Training | Validation | Significance                     |
+|------------|----------|------------|---------------------------------|
+| **Accuracy**   | 99.38%   | 94.55%     | Overall prediction correctness  |
+| **Precision**  | 99.80%   | 94.01%     | Reliability of positive predictions |
+| **Recall**     | 99.41%   | 99.05%     | Ability to identify all relevant cases |
+| **F1 Score**   | 99.61%   | 96.47%     | Balanced measure of precision and recall |
+
+</div>
+
+---
+
+📈 The hybrid CNN-ViT model consistently outperformed standalone CNN or Transformer baselines by **3-5%** across all metrics.
+
+---
+
