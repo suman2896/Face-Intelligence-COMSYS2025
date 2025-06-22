@@ -31,6 +31,7 @@ The goal is to improve accuracy and robustness by combining the local feature ex
 | **Plug & Predict**   | One-line prediction + visualization. No guesswork, just insight.                 |
 
 </div>
+
 ---
 
 ## 2. 🛠️ Key Steps & Methodology
@@ -65,6 +66,7 @@ picture required
 
 
 </div>
+
 ---
 
 ## ⚙️ Key Components & Methodology
