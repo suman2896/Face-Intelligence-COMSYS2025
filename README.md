@@ -134,6 +134,15 @@ picture required
 
 ## Output Visualization:
 
+## 🖼️ Gender Classification: Side-by-Side Comparison
+<div align="center">
+
+|        Original Image         |        Processed Prediction         |
+|:----------------------------:|:-----------------------------------:|
+| <img src="images/Original_image.png" alt="Original" width="250"/> | <img src="images/Output_image.png" alt="Prediction" width="250"/> |
+
+</div>
+
 ---
 
 ## 🌈 Why This Matters in a Hackathon?
@@ -195,12 +204,4 @@ picture required
 
 ---
 
-## 🧑‍💻 Team & Credits
-
-Crafted by **Shreyak Mukherjee**, an engineering student and visual thinker who brings the mindset of an artist into the logic of AI.
-
-> "In the realm of AI, fusion wins. CNN + ViT isn't just better — it's visionary."
-
-📧 Reach me at [shreyakmukherjeedgp@gmail.com](mailto:shreyakmukherjeedgp@gmail.com)  
-🌍 From Durgapur, West Bengal | 🏫 B.C. Roy Engineering College
 
