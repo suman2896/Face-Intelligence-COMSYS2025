@@ -25,3 +25,13 @@ This hybrid architecture aims to enhance **classification accuracy, interpretabi
 | Epochs            | 15                 |
 
 </div>
+
+---
+
+### 🔮 Future Improvements
+
+- **Better Face Detection**: Replace Haar Cascade with more accurate methods like **MTCNN** or **Dlib** for robust face localization.
+- **More Data Diversity**: Include facial images across **ethnicities, age groups, and lighting conditions** to improve model generalization.
+- **Model Optimization**: Experiment with lighter and faster models like **EfficientNet + DeiT** to balance **speed vs. accuracy** for deployment.
+- **Deployment**: Build a **real-time web application** using **Flask** or **Streamlit** for interactive gender prediction on uploaded or webcam images.
+
