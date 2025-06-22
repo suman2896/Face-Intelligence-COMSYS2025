@@ -245,7 +245,7 @@ Star ⭐ the repo, fork it, or connect with us.
 Your support inspires innovation!
 
 ```bash
-git clone https://github.com/your-username/gender-classification-hybrid.git
+git clone https://github.com/suman2896/Face-Intelligence-COMSYS2025.git
 ```
 
 ---
