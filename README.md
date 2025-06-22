@@ -28,6 +28,15 @@ This hybrid architecture aims to enhance **classification accuracy, interpretabi
 
 ---
 
+### ✅ Conclusion
+
+The proposed **Hybrid CNN-ViT architecture** achieved **over 92% accuracy** in gender classification, validating the effectiveness of combining **CNN’s local feature extraction** with **ViT’s global attention capabilities**.  
+This synergy enables the model to learn both fine-grained facial cues and holistic context, leading to **more reliable and generalizable predictions**.  
+With its strong performance and modular design, the system is well-positioned for **real-world deployment** and **scalable future enhancements**, including mobile integration, live webcam inference, and multi-attribute facial analysis.
+
+
+---
+
 ### 🔮 Future Improvements
 
 - **Better Face Detection**: Replace Haar Cascade with more accurate methods like **MTCNN** or **Dlib** for robust face localization.
