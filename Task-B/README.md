@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🧠 Gender Classification with CNN-ViT Fusion | Task-B Project </h1> 
+<h1> 🧠 Gender Classification with CNN-ViT Fusion  </h1> 
 </div>
 
 > "Merging Face Detection with Deep Visual Reasoning for Smarter Gender Recognition."
