@@ -9,3 +9,19 @@ Leveraging real-time face detection, advanced image preprocessing, hybrid deep l
 
 Design and implement an advanced deep learning pipeline for **gender classification from facial images** by integrating the **local feature extraction power of Convolutional Neural Networks (CNNs)** with the **global reasoning capabilities of Vision Transformers (ViT)**.  
 This hybrid architecture aims to enhance **classification accuracy, interpretability**, and **robustness to variations in pose, lighting, and background**, making it suitable for real-world applications in biometric systems, smart surveillance, and personalized AI.
+
+---
+
+### 🏋️ Training Configuration
+
+<div align="center">
+
+| Parameter        | Value              |
+|------------------|--------------------|
+| Loss Function     | Cross-Entropy Loss |
+| Optimizer         | Adam               |
+| Learning Rate     | 1e-4               |
+| Batch Size        | 32                 |
+| Epochs            | 15                 |
+
+</div>
