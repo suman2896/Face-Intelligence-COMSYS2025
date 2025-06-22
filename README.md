@@ -206,4 +206,56 @@ picture required
 
 ---
 
+## 🚀 Getting Started
+
+### 1. 📦 Installation
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 🏋️‍♂️ Run Training
+```bash
+python train.py \
+  --data_dir data/ \
+  --batch_size 32 \
+  --lr 0.0001 \
+  --epochs 15 \
+  --output_dir models/
+```
+
+### 3. 🔍 Make Predictions
+```bash
+python predict.py \
+  --image_path samples/test.jpg \
+  --model_path models/best_model.pth
+```
+
+### 4. 📤 Expected Output
+```text
+✅ Face detected and cropped!
+🧠 Prediction: Male (Confidence: 97.3%)
+📊 Visualization saved as prediction_output.jpg
+```
+
+---
+
+## ⭐ If You Like It...
+
+Star ⭐ the repo, fork it, or connect with us.  
+Your support inspires innovation!
+
+```bash
+git clone https://github.com/your-username/gender-classification-hybrid.git
+```
+
+---
+
+## 🌟 Final Note: Hackathon Ready, World Ready
+
+This is more than a hackathon project. It's:
+
+- ⚙️ **Modular**: Easy to adapt for other facial classification tasks  
+- 🖼️ **Human-readable**: Visualized predictions perfect for live demos  
+- 🔒 **Privacy-focused**: Processes only facial regions, not full images  
+- 🚀 **Deployable**: Efficient enough for real-time applications  
 
