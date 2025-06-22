@@ -28,6 +28,24 @@ This hybrid architecture aims to enhance **classification accuracy, interpretabi
 
 ---
 
+### 📊 Model Evaluation Metrics 
+
+<div align="center">
+
+| Metric     | Validation | Train   |
+|------------|------------|---------|
+| Accuracy   | 0.9455     | 0.9938  |
+| Precision  | 0.9401     | 0.9980  |
+| Recall     | 0.9905     | 0.9941  |
+| F1 Score   | 0.9647     | 0.9961  |
+
+</div>
+
+
+
+
+---
+
 ### ✅ Conclusion
 
 The proposed **Hybrid CNN-ViT architecture** achieved **over 92% accuracy** in gender classification, validating the effectiveness of combining **CNN’s local feature extraction** with **ViT’s global attention capabilities**.  
