@@ -12,8 +12,8 @@
 
 ## 🎯 Objective
 
-This project aims to classify **gender (Male/Female)** from facial images using a hybrid approach that integrates **CNN** (for local feature extraction) and **Vision Transformers (ViT)** (for global attention).  
-Built with **Facenet-PyTorch + Custom ViT Head**, the model achieves explainable and efficient inference suitable for real-world use.
+This project aims to perform **face verification** by determining whether two facial images belong to the same individual.  
+Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cosine similarity** for verification, the system provides an efficient and scalable solution for identity matching in real-world scenarios.
 
 ---
 
@@ -28,49 +28,36 @@ Built with **Facenet-PyTorch + Custom ViT Head**, the model achieves explainable
 
 ## 🔧 Methodology Overview
 
-### A. 🖼️ Data Preprocessing
+### 🖼️ Data Preprocessing
 
 <div align="center">
 
-| Step              | Description                                                  |
-|-------------------|--------------------------------------------------------------|
-| **Face Detection** | `MTCNN` is used for precise and robust face extraction.     |
-| **Transforms**     | Resize → Tensor → Normalize (ImageNet Mean/Std).            |
-| **Augmentation**   | Random horizontal flip to generalize across face poses.     |
+| Step               | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| **Face Detection** | Used `MTCNN` to detect and extract faces with added margin around the face. |
+| **Face Cropping**  | Automatically crops the detected face from the image using bounding boxes.  |
+| **Transforms**     | Resize to 160×160 → Tensor conversion → Normalize with mean=[0.5, 0.5, 0.5] and std=[0.5, 0.5, 0.5]. |
+
+
+</div>
+
+
+---
+
+### 🏗️ Model Pipeline
+
+<div align="center">
+
+| Component             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| **Feature Extractor** | `InceptionResnetV1` from facenet-pytorch (pretrained on VGGFace2) to extract facial embeddings. |
+| **Similarity Metric** | Cosine similarity is used to measure the distance between facial embeddings. |
+| **Decision Rule**     | A threshold-based classifier determines if the input faces belong to the same person (face match) or not. |
 
 </div>
 
 ---
 
-### B. 🏗️ Model Pipeline
-
-<div align="center">
-
-| Component             | Description                                                              |
-|-----------------------|--------------------------------------------------------------------------|
-| **Feature Extractor** | `InceptionResnetV1` from facenet-pytorch (pretrained on VGGFace2).       |
-| **ViT Head**          | Custom transformer layers to learn global context from facial embeddings.|
-| **Classifier**        | Fully Connected (FC) layers → Gender prediction.                         |
-
-</div>
-
----
-
-### 🧪 Training Configuration
-
-<div align="center">
-
-| Hyperparameter    | Value            |
-|------------------|------------------|
-| **Loss Function** | CrossEntropyLoss |
-| **Optimizer**     | Adam             |
-| **Learning Rate** | 1e-4             |
-| **Batch Size**    | 32               |
-| **Epochs**        | 15               |
-
-</div>
-
----
 
 ## 📊 Evaluation Metrics
 
@@ -104,13 +91,14 @@ Built with **Facenet-PyTorch + Custom ViT Head**, the model achieves explainable
 <div align="center">
 
 | Domain            | Utility                                                   |
-|------------------|-----------------------------------------------------------|
-| Surveillance      | Gender-based access control, security cameras            |
-| Retail            | Customer analytics for demographic insight               |
-| Social Robotics   | Gender-aware interaction in real-time                    |
-| Mobile Edge AI    | Lightweight ViT enables on-device real-time inference    |
+|-------------------|-----------------------------------------------------------|
+| Surveillance      | Face verification for secure access and identity monitoring. |
+| Attendance Systems| Automated attendance tracking using face verification.    |
+| Device Unlocking  | Face-based authentication for personal devices.           |
+| E-commerce        | Secure customer verification for high-value transactions. |
 
 </div>
+
 
 ---
 
@@ -118,14 +106,16 @@ Built with **Facenet-PyTorch + Custom ViT Head**, the model achieves explainable
 
 <div align="center">
 
-| Feature             | Upgrade Plan                         |
-|---------------------|--------------------------------------|
-| Face Detection      | Replace MTCNN with RetinaFace        |
-| Backbone Upgrade    | Try EfficientNet + DeiT              |
-| Web Interface       | Deploy using Streamlit               |
-| Federated Training  | Enable privacy-preserving learning   |
+| Feature             | Upgrade Plan                                |
+|---------------------|---------------------------------------------|
+| Face Detection      | Upgrade from MTCNN to RetinaFace for more accurate and faster detection. |
+| Backbone Upgrade    | Explore more modern architectures like EfficientNet or ViT for better feature extraction. |
+| Performance Tuning  | Optimize threshold selection dynamically based on ROC curve analysis. |
+| Web Interface       | Develop a real-time face verification app using Streamlit or Flask. |
+| Dataset Expansion   | Incorporate more diverse datasets to improve model generalization. |
 
 </div>
+
 
 ---
 
