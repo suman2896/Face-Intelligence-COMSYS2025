@@ -1,28 +1,41 @@
-<div align="center">
-<h1> 🧠 Gender Classification with CNN-ViT Fusion  </h1> 
-</div>
+# 🧠 Face Verification with MTCNN + InceptionResNetV1 (VGGFace2)
 
-> "Merging Face Detection with Deep Visual Reasoning for Smarter Gender Recognition."
+> "Smarter Identity Verification Using Deep Metric Learning and Real Face Cropping."
 
-<div align="center">
-<h3> Developed as part of the Hackathon 2025 Series </h3>
-</div>
+---
+
+## 🔍 Overview
+
+This project implements a face verification system using a deep learning pipeline with:
+
+* **MTCNN** for robust face detection
+* **InceptionResNetV1** (pretrained on VGGFace2) for feature extraction
+* **Cosine Similarity** for comparing embeddings
+
+It evaluates similarity between pairs of faces using a custom PyTorch `Dataset` built on face image folders with distortions.
 
 ---
 
 ## 🎯 Objective
 
-This project aims to perform **face verification** by determining whether two facial images belong to the same individual.  
-Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cosine similarity** for verification, the system provides an efficient and scalable solution for identity matching in real-world scenarios.
+To determine whether two face images belong to the same identity using face embedding comparison.
 
 ---
 
-## 🧠 System Architecture
+## 📷 Pipeline Summary
 
-<div align="center">
-<!-- Insert system architecture diagram here -->
-<img src="images/system_architecture.png" width="700"/>
-</div>
+1. **Face Detection:**
+
+   * Crops and aligns faces using MTCNN
+
+2. **Embedding Generation:**
+
+   * Uses pretrained InceptionResNetV1 (VGGFace2)
+
+3. **Verification:**
+
+   * Measures cosine similarity between embeddings
+   * Threshold-based classification: Match or No Match
 
 ---
 
@@ -59,6 +72,41 @@ Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cos
 ---
 
 
+
+
+
+## 🧠 Model Architecture
+
+<div align="center">
+<img src="assets/system_architecture_verification.png" width="700" alt="Architecture Diagram">
+</div>
+
+* **MTCNN**: Detects and aligns faces
+* **InceptionResNetV1**: Outputs 512D embeddings for each face
+* **Cosine Similarity**: Compares embeddings for verification
+
+---
+
+
+## 🧪 Training & Evaluation
+
+No training needed for the embedder (pretrained). Instead, pairs are evaluated and scored.
+
+### Metrics Used:
+
+<div align="center">
+
+| Metric    | Description                        |
+| --------- | ---------------------------------- |
+| Accuracy  | Overall classification correctness |
+| Precision | True positive rate for Match       |
+| Recall    | Detection rate for actual matches  |
+| F1 Score  | Balanced precision and recall      |
+
+</div>
+
+---
+
 ## 📊 Evaluation Metrics
 
 <div align="center">
@@ -72,7 +120,13 @@ Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cos
 
 </div>
 
+<div align="center">
+<img src="outputs/confusion_matrix_val.png" width="400"/>
+<img src="outputs/distance_distribution_val.png" width="500"/>
+</div>
+
 ---
+
 
 ## 🖼️ Output Visualization
 
@@ -83,6 +137,16 @@ Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cos
 | <img src="images/Original_image.png" width="250"/> | <img src="images/Output_image.png" width="250"/> |
 
 </div>
+
+
+---
+
+
+## 🧠 Why This Works
+
+* 🔍 Real face cropping > random resizing
+* 🧠 Pretrained embedding extractor with deep metric learning
+* 🔎 Cosine-based matching for robustness
 
 ---
 
@@ -117,11 +181,15 @@ Using **Facenet-PyTorch’s InceptionResnetV1** for feature extraction and **cos
 </div>
 
 
+
 ---
 
-## 🚀 How to Run
+## 📬 Credits
 
-### 1. 🧩 Install Dependencies
-```bash
-pip install -r requirements.txt
+* [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
+* [VGGFace2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
+* Hackathon Dataset: COMSYS 2025 Challenge
 
+---
+
+> 🔐 Built with performance, explainability, and fairness in mind.
