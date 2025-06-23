@@ -181,6 +181,59 @@ No training needed for the embedder (pretrained). Instead, pairs are evaluated a
 </div>
 
 
+---
+
+## 🚀 Getting Started
+
+### 1. 📦 Installation
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 🧪 Run Face Verification
+```bash
+python verify_faces.py \
+  --train_dir /path/to/train \
+  --val_dir /path/to/val \
+  --batch_size 32 \
+  --threshold 0.7
+```
+
+### 3. 📊 Visualize Results
+Confusion matrices, cosine distance plots, and sample verification pairs will be displayed automatically after evaluation.
+
+### 4. 📤 Expected Output
+```text
+✅ Face detected using MTCNN!
+🧠 Embeddings generated via InceptionResNetV1
+🔍 Distance: 0.4321 → Prediction: Match
+📊 Metrics and visualizations saved in /outputs/
+```
+
+---
+
+## ⭐ If You Like It...
+
+Star ⭐ the repo, fork it, or share with your peers.  
+Your support drives open research and reproducibility!
+
+```bash
+git clone https://github.com/your-username/mtcnn-face-verification.git
+```
+
+---
+
+## 🌟 Final Note: Hackathon Ready, Industry Ready
+
+This isn’t just a demo—it’s a deployable, robust, and modular face verification engine:
+
+- 🔍 **Accurate**: Verified performance with real-world distortions  
+- 🧠 **Intelligent**: Face-centric preprocessing + VGGFace2 deep embeddings  
+- 📦 **Plug & Play**: Just point to folders and evaluate—no model training required  
+- 🚀 **Deployment-Ready**: Lightweight and easy to integrate with web or edge systems
+
+> 💡 Built with clarity, speed, and trust in AI.
+
 
 ---
 
