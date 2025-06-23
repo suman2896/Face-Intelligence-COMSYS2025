@@ -132,9 +132,14 @@ No training needed for the embedder (pretrained). Instead, pairs are evaluated a
 
 <div align="center">
 
-| Original Image | Predicted Output |
-|----------------|------------------|
-| <img src="images/Original_image.png" width="250"/> | <img src="images/Output_image.png" width="250"/> |
+<h3 align="center">🖼️ Predicted Output</h3>
+
+<p align="center">
+  <img src="Task-B/images/Final_Output.png" width="300"/>
+</p>
+
+
+
 
 </div>
 
