@@ -59,13 +59,18 @@ This hackathon aims to apply AI & ML techniques to real-world challenges using *
 
 ## 🧩 Tech Stack
 
-| Tool/Library     | Description                       |
-|------------------|-----------------------------------|
-| Python           | Core Programming Language         |
-| PyTorch          | Deep Learning Framework           |
-| OpenCV           | Image Processing                  |
-| CNN + ViT        | Custom Hybrid Architecture        |
-| Matplotlib/Seaborn | Data Visualization              |
+<div align="center">
+
+| Tool/Library       | Description                    |
+|--------------------|--------------------------------|
+| Python             | Core Programming Language      |
+| PyTorch            | Deep Learning Framework        |
+| OpenCV             | Image Processing               |
+| CNN + ViT          | Custom Hybrid Architecture     |
+| Matplotlib/Seaborn | Data Visualization             |
+
+</div>
+
 
 ---
 
