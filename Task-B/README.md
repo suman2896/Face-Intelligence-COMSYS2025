@@ -121,8 +121,8 @@ No training needed for the embedder (pretrained). Instead, pairs are evaluated a
 </div>
 
 <div align="center">
-<img src="outputs/confusion_matrix_val.png" width="400"/>
-<img src="outputs/distance_distribution_val.png" width="500"/>
+<img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Confusion_Matrix.png" width="400"/>
+<img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Face_Verification.png" width="500"/>
 </div>
 
 ---
