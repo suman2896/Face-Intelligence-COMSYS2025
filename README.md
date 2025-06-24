@@ -32,7 +32,7 @@ This hackathon aims to apply AI & ML techniques to real-world challenges using *
 
 ## 🔍 Overview of Tasks
 
-### ✅ [Task-A](./Task-A/README.md): **Image Classification**
+### ✅ [Task-A](./Task-A/README.md): **Gender Classification with Hybrid CNN-ViT**
 
 - **Objective:** Perform classification on a specialized dataset using a custom CNN + ViT hybrid model.
 - **Features:**
