@@ -1,4 +1,4 @@
-# 🧠 Face Verification with MTCNN + InceptionResNetV1 (VGGFace2)
+<h1 align="center" style="font-size: 32px;">🧠 Face Verification with MTCNN + InceptionResNetV1 (VGGFace2)</h1>
 
 > "Smarter Identity Verification Using Deep Metric Learning and Real Face Cropping."
 
