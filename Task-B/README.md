@@ -78,7 +78,7 @@ To determine whether two face images belong to the same identity using face embe
 ## 🧠 Model Architecture
 
 <div align="center">
-<img src="assets/system_architecture_verification.png" width="700" alt="Architecture Diagram">
+<img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/main/Task-B/images/Model_Architecture_task2.png" width="500"/>
 </div>
 
 * **MTCNN**: Detects and aligns faces
