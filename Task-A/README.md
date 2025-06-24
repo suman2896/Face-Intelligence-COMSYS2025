@@ -61,7 +61,9 @@ Combined two powerful deep learning approaches:
 
 <div align="center">
 
-picture required
+<div align="center">
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/main/Task-B/images/Model_Architecture_1.png" height="320"/>
+</div>
 
 
 
