@@ -45,7 +45,7 @@ This hackathon aims to apply AI & ML techniques to real-world challenges using *
 
 ---
 
-### ✅ [Task-B](./Task-B/README.md): **Object Detection & Analysis**
+### ✅ [Task-B](./Task-B/README.md): **Face Verification with MTCNN + InceptionResNetV1 (VGGFace2)**
 
 - **Objective:** Detect and annotate specific objects in images and evaluate detection performance.
 - **Features:**
