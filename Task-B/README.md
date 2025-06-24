@@ -118,12 +118,23 @@ No training needed for the embedder (pretrained). Instead, pairs are evaluated a
 | Recall     | 68.07     | 70.80          |
 | F1-Score   | 78.28     | 80.24          |
 
+<!-- Training Section -->
+<div align="center">
+  <h3 style="font-weight: bold; font-size: 18px; margin-bottom: 10px;">🧠 Training Results</h3>
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Confusion_Matrix.png" height="300"/>
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Face_Verification.png" height="300"/>
 </div>
 
+<br>
+
+<!-- Validation Section -->
 <div align="center">
-<img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Confusion_Matrix.png" width="400"/>
-<img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Training_Face_Verification.png" width="500"/>
+  <h3 style="font-weight: bold; font-size: 18px; margin-bottom: 10px;">🔍 Validation Results</h3>
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Validation_Confusion_Matrix.png" height="300"/>
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/3a82b1fced6f22242b4a7a4a9c98f9bcab1fa7d2/Task-B/images/Validation_Face_Verification.png" height="300"/>
 </div>
+
+
 
 ---
 
@@ -131,18 +142,12 @@ No training needed for the embedder (pretrained). Instead, pairs are evaluated a
 ## 🖼️ Output Visualization
 
 <div align="center">
-
-<h3 align="center">🖼️ Predicted Output</h3>
-
-<p align="center">
-  <img src="Task-B/images/Final_Output.png" width="300"/>
-</p>
-
-
-
+  
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/main/Task-B/images/Final_Output.png" height="320"/>
 
 </div>
 
+</div>
 
 ---
 
