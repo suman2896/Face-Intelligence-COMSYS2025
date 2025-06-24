@@ -1,6 +1,9 @@
 <div align="center">
-<h1> 🧠 Gender Classification with Hybrid CNN-ViT: Hackathon Edition </h1> 
+  <h1 style="font-size: 32px; font-weight: 700; letter-spacing: 0.5px; color: #1F2937; margin-bottom: 20px;">
+    🧠 Gender Classification with Hybrid CNN-ViT: Hackathon Edition
+  </h1>
 </div>
+
 
 
 > "Combining Local Precision with Global Intelligence for Smarter Gender Recognition."
@@ -62,8 +65,10 @@ Combined two powerful deep learning approaches:
 <div align="center">
 
 <div align="center">
-  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/main/Task-B/images/Model_Architecture_1.png" height="320"/>
+  <img src="https://github.com/suman2896/Face-Intelligence-COMSYS2025/blob/main/Task-A/images/Model_Architecture_task1.png" width="700"/>
 </div>
+
+
 
 
 
