@@ -49,8 +49,8 @@ This hackathon aims to apply AI & ML techniques to real-world challenges using *
 
 - **Objective:** Detect and annotate specific objects in images and evaluate detection performance.
 - **Features:**
-  - Bounding box annotation
-  - Real-time detection
+  - MTCNN for robust face detection
+  - InceptionResNetV1 (pretrained on VGGFace2) for feature extraction
   - Precision-recall evaluation
 - **Highlights:** Lightweight architecture, Real-time capable
 
