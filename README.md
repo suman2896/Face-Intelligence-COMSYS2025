@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 ### For Task B:
 ```bash
-cd ../Task-B
+cd Task-B
 pip install -r requirements.txt
 ```
 
