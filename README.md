@@ -6,7 +6,7 @@
 Welcome to our official submission for the **COMSYS Hackathon-5 (2025)**! This repository contains a two-part intelligent facial analysis system built to tackle:
 
 - **Task A**: Gender Classification from Facial Images
-- **Task B**: Face Verification with Distorted Inputs
+- **Task B**: Face Matching (Multi-Class Recognition with Distorted Inputs)
 
 Each task is developed using cutting-edge deep learning techniques, blending **Convolutional Neural Networks (CNNs)**, **Vision Transformers (ViTs)**, **Metric Learning**, and **face embeddings** to ensure accuracy, explainability, and robustness.
 
@@ -207,10 +207,17 @@ If this project inspires you or helps your work, consider ⭐ starring the repo 
 ---
 
 ## 📬 Contact
+
+📧 chowdhurysuman1267@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/suman-chowdhury-655629312)  
+🔗 [GitHub](https://github.com/suman2896)
+
 📧 shreyakmukhrjeedgp@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/shreyak-mukherjee-203558275/)  
 🔗 [GitHub](https://github.com/shreyakmukherjee)
 
-📧 chowdhurysuman1267@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/suman-chowdhury)  
-🔗 [GitHub](https://github.com/suman2896)
+📧 sayankumardhar2003@gmail.com 
+🔗 [LinkedIn](https://www.linkedin.com/in/sayan-kumar-dhar-a5a405313)  
+🔗 [GitHub](https://github.com/SayanDhar10)
+
+
