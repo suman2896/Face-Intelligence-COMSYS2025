@@ -216,8 +216,7 @@ If this project inspires you or helps your work, consider ⭐ starring the repo 
 🔗 [LinkedIn](https://www.linkedin.com/in/shreyak-mukherjee-203558275/)  
 🔗 [GitHub](https://github.com/shreyakmukherjee)
 
-📧 sayankumardhar2003@gmail.com 
+📧 sayankumardhar2003@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/sayan-kumar-dhar-a5a405313)  
 🔗 [GitHub](https://github.com/SayanDhar10)
-
 
