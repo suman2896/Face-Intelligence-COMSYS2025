@@ -206,7 +206,7 @@ If this project inspires you or helps your work, consider ⭐ starring the repo 
 
 ---
 
-## 📬 Contact
+## 📬 Contact Us
 
 📧 chowdhurysuman1267@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/suman-chowdhury-655629312)  
