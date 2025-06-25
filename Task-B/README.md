@@ -228,7 +228,7 @@ Star ⭐ the repo, fork it, or share with your peers.
 Your support drives open research and reproducibility!
 
 ```bash
-git clone https://github.com/your-username/mtcnn-face-verification.git
+git clone https://github.com/suman2896/Face-Intelligence-COMSYS2025.git
 ```
 
 ---
