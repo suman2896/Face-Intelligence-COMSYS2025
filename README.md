@@ -20,6 +20,7 @@ Face-Intelligence-COMSYS2025/
 │   ├── images/               # Image assets for Task A
 │   ├── Task-A.ipynb          # Jupyter Notebook for Task A
 │   ├── requirements.txt      # Dependencies for Task A
+│   └── best_model.pth        # Model weights
 │   └── README.md             # Documentation for Task A
 ├── Task-B/
 │   ├── images/               # Image assets for Task B
@@ -81,6 +82,12 @@ A robust face matching pipeline using:
 | F1 Score   | 78.28        | 80.24          |
 
 🔍 **Architecture**: `MTCNN` → `Face Cropping` → `InceptionResNetV1` → `Cosine Distance` → `Match / No Match`
+
+⚙️ **Model Weights** : The model weights are stored in Google Drive because it exceeds GitHub's 100MB file size limit.
+
+```bash
+https://drive.google.com/file/d/1NbcPeUQKq1EbQGJ8DsxBN7LLcMKBCFwF/view?usp=sharing
+```
 
 📤 **Output**: Verification label (1 or 0) with cosine distance score and visual evaluation.
 
